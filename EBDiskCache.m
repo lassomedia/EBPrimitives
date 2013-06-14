@@ -37,7 +37,7 @@ static NSString *const kContainersPlistFileName = @"containers.plist";
 static const NSUInteger kSyncNeededChangeCount = 250;
 
 #pragma mark - Creation -
-- (id)initWithStoreURL: (NSURL *)storeURL sizeLimit: (size_t)sizeLimit
+- (instancetype)initWithStoreURL: (NSURL *)storeURL sizeLimit: (size_t)sizeLimit
 {
         NSParameterAssert(storeURL);
     

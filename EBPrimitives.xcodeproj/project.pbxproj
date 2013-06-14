@@ -29,6 +29,10 @@
 		550F7973176A7359006C95BF /* EBUseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795F176A7359006C95BF /* EBUseTracker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		550F7975176A736C006C95BF /* EBPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7974176A736C006C95BF /* EBPrimitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7976176A736C006C95BF /* EBPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7974176A736C006C95BF /* EBPrimitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B870B7176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B870B8176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B870B9176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */; };
+		55B870BA176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,8 @@
 		55995A7C1763FEB10017F41E /* libEBPrimitives.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBPrimitives.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995A921763FEB90017F41E /* libEBPrimitives.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBPrimitives.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995ABB1763FEE40017F41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTwoLevelCache.h; sourceTree = "<group>"; };
+		55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTwoLevelCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 				550F795B176A7359006C95BF /* EBDiskCache.m */,
 				550F795C176A7359006C95BF /* EBReadWriteLock.h */,
 				550F795D176A7359006C95BF /* EBReadWriteLock.m */,
+				55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */,
+				55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */,
 				550F795E176A7359006C95BF /* EBUseTracker.h */,
 				550F795F176A7359006C95BF /* EBUseTracker.m */,
 			);
@@ -114,6 +122,7 @@
 				550F7965176A7359006C95BF /* EBConditionLock.h in Headers */,
 				550F7969176A7359006C95BF /* EBDiskCache.h in Headers */,
 				550F796D176A7359006C95BF /* EBReadWriteLock.h in Headers */,
+				55B870B8176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */,
 				550F7971176A7359006C95BF /* EBUseTracker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +136,7 @@
 				550F7964176A7359006C95BF /* EBConditionLock.h in Headers */,
 				550F7968176A7359006C95BF /* EBDiskCache.h in Headers */,
 				550F796C176A7359006C95BF /* EBReadWriteLock.h in Headers */,
+				55B870B7176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */,
 				550F7970176A7359006C95BF /* EBUseTracker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +214,7 @@
 				550F796A176A7359006C95BF /* EBDiskCache.m in Sources */,
 				550F796E176A7359006C95BF /* EBReadWriteLock.m in Sources */,
 				550F7972176A7359006C95BF /* EBUseTracker.m in Sources */,
+				55B870B9176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +227,7 @@
 				550F796B176A7359006C95BF /* EBDiskCache.m in Sources */,
 				550F796F176A7359006C95BF /* EBReadWriteLock.m in Sources */,
 				550F7973176A7359006C95BF /* EBUseTracker.m in Sources */,
+				55B870BA176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

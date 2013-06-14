@@ -2,4 +2,5 @@
 #import <EBPrimitives/EBConditionLock.h>
 #import <EBPrimitives/EBDiskCache.h>
 #import <EBPrimitives/EBReadWriteLock.h>
+#import <EBPrimitives/EBTwoLevelCache.h>
 #import <EBPrimitives/EBUseTracker.h>

@@ -3,7 +3,7 @@
 @interface EBDiskCache : NSObject
 
 /* ### Creation */
-- (id)initWithStoreURL: (NSURL *)storeURL sizeLimit: (size_t)sizeLimit;
+- (instancetype)initWithStoreURL: (NSURL *)storeURL sizeLimit: (size_t)sizeLimit;
 
 /* ### Properties */
 @property(nonatomic, readonly) NSURL *storeURL;
