@@ -1,4 +1,4 @@
-EBPrimitives is a framework that includes various generally-useful primitive classes.
+EBPrimitives is a framework that includes various generally-useful primitive classes, described below.
 
 ## EBConcurrentQueue
 
