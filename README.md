@@ -43,5 +43,5 @@ EBUseTracker is an Objective-C least-recently-used (LRU) and most-recently-used 
 2. Drag EBPrimitives.xcodeproj into your project's file hierarchy.
 3. In your target's "Build Phases" tab:
     * Add EBPrimitives as a dependency ("Target Dependencies" section)
-    * Link against EBPrimitives ("Link Binary With Libraries" section)
+    * Link against libEBPrimitives.a ("Link Binary With Libraries" section)
 4. Add `#import <EBPrimitives/EBPrimitives.h>` to your source files.
