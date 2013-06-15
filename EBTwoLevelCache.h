@@ -16,7 +16,8 @@
 /* ## Methods */
 
 /* Returns the object from the memory cache if it exists, otherwise goes down to the disk cache and transforms
-   the data into an object using `transformer`. If no data exists, returns nil. */
+   the data into an object using `transformer`, and then places the object in the memory cache. If no data
+   exists, returns nil. */
 - (id <NSObject>)objectForKey: (NSString *)key;
 
 /* Puts the object in the memory cache, and if `transformer` supports reverse transformation, the object will
