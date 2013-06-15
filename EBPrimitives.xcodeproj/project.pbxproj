@@ -35,6 +35,37 @@
 		55B870BA176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		55CBFA8E176D009B0091CD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55995A7C1763FEB10017F41E;
+			remoteInfo = Mac;
+		};
+		55CBFA90176D009B0091CD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55995A921763FEB90017F41E;
+			remoteInfo = iOS;
+		};
+		55CBFAA4176D00AB0091CD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 55995A7B1763FEB10017F41E;
+			remoteInfo = Mac;
+		};
+		55CBFAA6176D00AF0091CD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 55995A911763FEB90017F41E;
+			remoteInfo = iOS;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		550F7956176A7359006C95BF /* EBConcurrentQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBConcurrentQueue.h; sourceTree = "<group>"; };
 		550F7957176A7359006C95BF /* EBConcurrentQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBConcurrentQueue.m; sourceTree = "<group>"; };
@@ -52,6 +83,7 @@
 		55995ABB1763FEE40017F41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTwoLevelCache.h; sourceTree = "<group>"; };
 		55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTwoLevelCache.m; sourceTree = "<group>"; };
+		55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EBFoundation.xcodeproj; path = "/Users/dave/Desktop/NewDLTestHalla/../Open-source Stuff/EBFoundation/EBFoundation.xcodeproj"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +107,7 @@
 		55995A711763FE8E0017F41E = {
 			isa = PBXGroup;
 			children = (
+				55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */,
 				55995ABB1763FEE40017F41E /* README.md */,
 				55995ABC1763FEE80017F41E /* Source */,
 				55995A7D1763FEB10017F41E /* Products */,
@@ -108,6 +141,15 @@
 				550F795F176A7359006C95BF /* EBUseTracker.m */,
 			);
 			name = Source;
+			sourceTree = "<group>";
+		};
+		55CBFA8A176D009B0091CD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CBFA8F176D009B0091CD77 /* libEBFoundation.a */,
+				55CBFA91176D009B0091CD77 /* libEBFoundation.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +197,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				55CBFAA5176D00AB0091CD77 /* PBXTargetDependency */,
 			);
 			name = Mac;
 			productName = Mac;
@@ -172,6 +215,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				55CBFAA7176D00AF0091CD77 /* PBXTargetDependency */,
 			);
 			name = iOS;
 			productName = iOS;
@@ -196,6 +240,12 @@
 			mainGroup = 55995A711763FE8E0017F41E;
 			productRefGroup = 55995A7D1763FEB10017F41E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 55CBFA8A176D009B0091CD77 /* Products */;
+					ProjectRef = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				55995A7B1763FEB10017F41E /* Mac */,
@@ -203,6 +253,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		55CBFA8F176D009B0091CD77 /* libEBFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEBFoundation.a;
+			remoteRef = 55CBFA8E176D009B0091CD77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		55CBFA91176D009B0091CD77 /* libEBFoundation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEBFoundation.a;
+			remoteRef = 55CBFA90176D009B0091CD77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55995A781763FEB10017F41E /* Sources */ = {
@@ -233,6 +300,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		55CBFAA5176D00AB0091CD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mac;
+			targetProxy = 55CBFAA4176D00AB0091CD77 /* PBXContainerItemProxy */;
+		};
+		55CBFAA7176D00AF0091CD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOS;
+			targetProxy = 55CBFAA6176D00AF0091CD77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
 		55995A761763FE8E0017F41E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -260,7 +340,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include";
+				HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -292,7 +372,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include";
+				HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
