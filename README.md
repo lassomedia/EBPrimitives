@@ -45,3 +45,11 @@ EBUseTracker is an Objective-C least-recently-used (LRU) and most-recently-used 
     * Add EBPrimitives as a dependency ("Target Dependencies" section)
     * Link against libEBPrimitives.a ("Link Binary With Libraries" section)
 4. Add `#import <EBPrimitives/EBPrimitives.h>` to your source files.
+
+## Credits
+
+EBPrimitives was created for [Lasso](http://las.so).
+
+## License
+
+EBPrimitives is available under the MIT license; see the LICENSE file for more information.
