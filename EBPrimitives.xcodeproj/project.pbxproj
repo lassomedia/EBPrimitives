@@ -7,55 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		550F7960176A7359006C95BF /* EBConcurrentQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7956176A7359006C95BF /* EBConcurrentQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7961176A7359006C95BF /* EBConcurrentQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7956176A7359006C95BF /* EBConcurrentQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F7962176A7359006C95BF /* EBConcurrentQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7957176A7359006C95BF /* EBConcurrentQueue.m */; };
 		550F7963176A7359006C95BF /* EBConcurrentQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7957176A7359006C95BF /* EBConcurrentQueue.m */; };
-		550F7964176A7359006C95BF /* EBConditionLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7958176A7359006C95BF /* EBConditionLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7965176A7359006C95BF /* EBConditionLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7958176A7359006C95BF /* EBConditionLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F7966176A7359006C95BF /* EBConditionLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7959176A7359006C95BF /* EBConditionLock.m */; };
 		550F7967176A7359006C95BF /* EBConditionLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F7959176A7359006C95BF /* EBConditionLock.m */; };
-		550F7968176A7359006C95BF /* EBDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F795A176A7359006C95BF /* EBDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7969176A7359006C95BF /* EBDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F795A176A7359006C95BF /* EBDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F796A176A7359006C95BF /* EBDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795B176A7359006C95BF /* EBDiskCache.m */; };
 		550F796B176A7359006C95BF /* EBDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795B176A7359006C95BF /* EBDiskCache.m */; };
-		550F796C176A7359006C95BF /* EBReadWriteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F795C176A7359006C95BF /* EBReadWriteLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F796D176A7359006C95BF /* EBReadWriteLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F795C176A7359006C95BF /* EBReadWriteLock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F796E176A7359006C95BF /* EBReadWriteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795D176A7359006C95BF /* EBReadWriteLock.m */; };
 		550F796F176A7359006C95BF /* EBReadWriteLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795D176A7359006C95BF /* EBReadWriteLock.m */; };
-		550F7970176A7359006C95BF /* EBUseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F795E176A7359006C95BF /* EBUseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7971176A7359006C95BF /* EBUseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F795E176A7359006C95BF /* EBUseTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550F7972176A7359006C95BF /* EBUseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795F176A7359006C95BF /* EBUseTracker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		550F7973176A7359006C95BF /* EBUseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 550F795F176A7359006C95BF /* EBUseTracker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		550F7975176A736C006C95BF /* EBPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7974176A736C006C95BF /* EBPrimitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550F7976176A736C006C95BF /* EBPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7974176A736C006C95BF /* EBPrimitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B870B7176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55B870B8176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55B870B9176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */; };
 		55B870BA176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55612B67176D288F00F85CE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 55995A7C1763FEB10017F41E;
-			remoteInfo = Mac;
-		};
 		55612B69176D288F00F85CE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 55995A921763FEB90017F41E;
 			remoteInfo = iOS;
-		};
-		55612C3E176D369C00F85CE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 55CBFA89176D009B0091CD77 /* EBFoundation.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 55995A7B1763FEB10017F41E;
-			remoteInfo = Mac;
 		};
 		55612C42176D36A000F85CE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -78,7 +51,6 @@
 		550F795E176A7359006C95BF /* EBUseTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBUseTracker.h; sourceTree = "<group>"; };
 		550F795F176A7359006C95BF /* EBUseTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBUseTracker.m; sourceTree = "<group>"; };
 		550F7974176A736C006C95BF /* EBPrimitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBPrimitives.h; sourceTree = "<group>"; };
-		55995A7C1763FEB10017F41E /* libEBPrimitives.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBPrimitives.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995A921763FEB90017F41E /* libEBPrimitives.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEBPrimitives.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		55995ABB1763FEE40017F41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTwoLevelCache.h; sourceTree = "<group>"; };
@@ -87,13 +59,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55995A791763FEB10017F41E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55995A8F1763FEB90017F41E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,7 +72,6 @@
 		55612B63176D288F00F85CE4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55612B68176D288F00F85CE4 /* libEBFoundation.a */,
 				55612B6A176D288F00F85CE4 /* libEBFoundation.a */,
 			);
 			name = Products;
@@ -126,7 +90,6 @@
 		55995A7D1763FEB10017F41E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55995A7C1763FEB10017F41E /* libEBPrimitives.a */,
 				55995A921763FEB90017F41E /* libEBPrimitives.a */,
 			);
 			name = Products;
@@ -169,41 +132,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55995A7A1763FEB10017F41E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550F7975176A736C006C95BF /* EBPrimitives.h in Headers */,
-				550F7960176A7359006C95BF /* EBConcurrentQueue.h in Headers */,
-				550F7964176A7359006C95BF /* EBConditionLock.h in Headers */,
-				550F7968176A7359006C95BF /* EBDiskCache.h in Headers */,
-				550F796C176A7359006C95BF /* EBReadWriteLock.h in Headers */,
-				55B870B7176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */,
-				550F7970176A7359006C95BF /* EBUseTracker.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		55995A7B1763FEB10017F41E /* Mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55995A8D1763FEB10017F41E /* Build configuration list for PBXNativeTarget "Mac" */;
-			buildPhases = (
-				55995A781763FEB10017F41E /* Sources */,
-				55995A791763FEB10017F41E /* Frameworks */,
-				55995A7A1763FEB10017F41E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				55612C3F176D369C00F85CE4 /* PBXTargetDependency */,
-			);
-			name = Mac;
-			productName = Mac;
-			productReference = 55995A7C1763FEB10017F41E /* libEBPrimitives.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		55995A911763FEB90017F41E /* iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55995A9C1763FEB90017F41E /* Build configuration list for PBXNativeTarget "iOS" */;
@@ -248,20 +179,12 @@
 			);
 			projectRoot = "";
 			targets = (
-				55995A7B1763FEB10017F41E /* Mac */,
 				55995A911763FEB90017F41E /* iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		55612B68176D288F00F85CE4 /* libEBFoundation.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libEBFoundation.a;
-			remoteRef = 55612B67176D288F00F85CE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		55612B6A176D288F00F85CE4 /* libEBFoundation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -272,19 +195,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55995A781763FEB10017F41E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550F7962176A7359006C95BF /* EBConcurrentQueue.m in Sources */,
-				550F7966176A7359006C95BF /* EBConditionLock.m in Sources */,
-				550F796A176A7359006C95BF /* EBDiskCache.m in Sources */,
-				550F796E176A7359006C95BF /* EBReadWriteLock.m in Sources */,
-				550F7972176A7359006C95BF /* EBUseTracker.m in Sources */,
-				55B870B9176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55995A8E1763FEB90017F41E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,11 +211,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		55612C3F176D369C00F85CE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mac;
-			targetProxy = 55612C3E176D369C00F85CE4 /* PBXContainerItemProxy */;
-		};
 		55612C43176D36A000F85CE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iOS;
@@ -384,28 +289,11 @@
 			};
 			name = Release;
 		};
-		55995A8B1763FEB10017F41E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		55995A8C1763FEB10017F41E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 		55995A9D1763FEB90017F41E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -415,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -428,15 +317,6 @@
 			buildConfigurations = (
 				55995A761763FE8E0017F41E /* Debug */,
 				55995A771763FE8E0017F41E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55995A8D1763FEB10017F41E /* Build configuration list for PBXNativeTarget "Mac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				55995A8B1763FEB10017F41E /* Debug */,
-				55995A8C1763FEB10017F41E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

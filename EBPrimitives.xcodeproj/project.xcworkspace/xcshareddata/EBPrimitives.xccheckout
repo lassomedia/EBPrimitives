@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D715B83-D275-478D-82C7-D65225C2E54B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EBPrimitives</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CA64FF1-FD58-478D-99DE-5DEBFB044681</key>
+		<string>ssh://github.com/lassomedia/EBPrimitives.git</string>
+		<key>9C3AA47D-6327-4AE4-8AE6-1FA7CFB32ED5</key>
+		<string>ssh://github.com/lassomedia/EBFoundation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EBPrimitives.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CA64FF1-FD58-478D-99DE-5DEBFB044681</key>
+		<string>../..</string>
+		<key>9C3AA47D-6327-4AE4-8AE6-1FA7CFB32ED5</key>
+		<string>../../../EBFoundation</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/lassomedia/EBPrimitives.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CA64FF1-FD58-478D-99DE-5DEBFB044681</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C3AA47D-6327-4AE4-8AE6-1FA7CFB32ED5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EBFoundation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CA64FF1-FD58-478D-99DE-5DEBFB044681</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EBPrimitives</string>
+		</dict>
+	</array>
+</dict>
+</plist>
