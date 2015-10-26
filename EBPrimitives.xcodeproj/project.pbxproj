@@ -20,6 +20,13 @@
 		550F7976176A736C006C95BF /* EBPrimitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 550F7974176A736C006C95BF /* EBPrimitives.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55B870B8176A9C8F00E22CF3 /* EBTwoLevelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55B870BA176A9C8F00E22CF3 /* EBTwoLevelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B870B6176A9C8F00E22CF3 /* EBTwoLevelCache.m */; };
+		63666DC11BD8C22A0049AD10 /* EBPrimitives.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F7974176A736C006C95BF /* EBPrimitives.h */; };
+		63666DC21BD8C22A0049AD10 /* EBConcurrentQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F7956176A7359006C95BF /* EBConcurrentQueue.h */; };
+		63666DC31BD8C22A0049AD10 /* EBConditionLock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F7958176A7359006C95BF /* EBConditionLock.h */; };
+		63666DC41BD8C22A0049AD10 /* EBDiskCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F795A176A7359006C95BF /* EBDiskCache.h */; };
+		63666DC51BD8C22A0049AD10 /* EBReadWriteLock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F795C176A7359006C95BF /* EBReadWriteLock.h */; };
+		63666DC61BD8C22A0049AD10 /* EBTwoLevelCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55B870B5176A9C8F00E22CF3 /* EBTwoLevelCache.h */; };
+		63666DC71BD8C22A0049AD10 /* EBUseTracker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 550F795E176A7359006C95BF /* EBUseTracker.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,25 @@
 			remoteInfo = iOS;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63666DC01BD8C2120049AD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/EBPrimitives;
+			dstSubfolderSpec = 16;
+			files = (
+				63666DC11BD8C22A0049AD10 /* EBPrimitives.h in CopyFiles */,
+				63666DC21BD8C22A0049AD10 /* EBConcurrentQueue.h in CopyFiles */,
+				63666DC31BD8C22A0049AD10 /* EBConditionLock.h in CopyFiles */,
+				63666DC41BD8C22A0049AD10 /* EBDiskCache.h in CopyFiles */,
+				63666DC51BD8C22A0049AD10 /* EBReadWriteLock.h in CopyFiles */,
+				63666DC61BD8C22A0049AD10 /* EBTwoLevelCache.h in CopyFiles */,
+				63666DC71BD8C22A0049AD10 /* EBUseTracker.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		550F7956176A7359006C95BF /* EBConcurrentQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBConcurrentQueue.h; sourceTree = "<group>"; };
@@ -142,6 +168,7 @@
 				55995A8E1763FEB90017F41E /* Sources */,
 				55995A8F1763FEB90017F41E /* Frameworks */,
 				555E5DB7176402C1007FC19F /* Headers */,
+				63666DC01BD8C2120049AD10 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -292,6 +319,7 @@
 		55995A9D1763FEB90017F41E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
@@ -302,6 +330,7 @@
 		55995A9E1763FEB90017F41E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
@@ -350,6 +379,7 @@
 		63D241A51924342E00FAE98E /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
